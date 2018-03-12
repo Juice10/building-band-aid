@@ -17,13 +17,14 @@ Accompanying this series is a [corresponding workshop](https://github.com/Strong
 
 ## Previously on _Let's build a band app!_
 
-In the [previous episode](/strongblog/lets-build-a-band-app-loopback-pt3/), we got to know the Swagger explorer that comes for free with LoopBack. It is an interface that allows us to see and interact with our APIs. We are able to make requests through the UI and see how our API endpoints respond. Now that we have seen our API in action, let's deploy it so that we can begin to interact with it over the web rather than just within our local development environment.
+In the [previous episode](./api-explorer.md), we got to know the Swagger explorer that comes for free with LoopBack. It is an interface that allows us to see and interact with our APIs. We are able to make requests through the UI and see how our API endpoints respond. Now that we have seen our API in action, let's deploy it so that we can begin to interact with it over the web rather than just within our local development environment.
 
 ## In this episode
 
-In this episode, we will deploy our application to the cloud. A LoopBack app is simply a Node.js app. For our purposes, we will deploy our code to [Bluemix](https://bluemix.net), IBM's PaaS (platform as a service), but we could deploy it wherever Node.js is supported. Wherever we decide to deploy our Node application, we need to make sure the tools were in place to keep our app running and able to handle any sort of load it may need to withstand. Fortunately, Bluemix handles all of that for us. And we can use their Cloud Foundry tools to configure and manage the deployment.
+In this episode, we will deploy our application to the cloud. A LoopBack app is simply a Node.js app. For our purposes, we will deploy our code to [IBM Cloud](https://bluemix.net), but we could deploy it wherever Node.js is supported. Wherever we decide to deploy our Node application, we need to make sure the tools were in place to keep our app running and able to handle any sort of load it may need to withstand. Fortunately, Bluemix handles all of that for us. And we can use their Cloud Foundry tools to configure and manage the deployment.
 <!--more-->
 <img src="https://strongloop.com/blog-assets/2017/band-app/bandapp4.jpg" alt="Let's make a band app part 4" style="width: 500px"/>
+
 ## Create Node.js Cloud Foundry app:
 
 In this step, we will to go into the [Bluemix catalog](https://console.ng.bluemix.net/catalog/) and from the Cloud Foundry section we will choose to create a Node.js Runtime App:
@@ -193,5 +194,5 @@ At this point, we now have our application in the cloud. We can access it from a
 
 ## What's Next?
 
-If we go to our [Band App on Bluemix](https://band-app.bluemix.net), we will see the status output that is the default for a LoopBack app. And if we view the [LoopBack Explorer for our API](https://band-app.bluemix.net/explorer) (`/explorer`), we should see the familiar Swagger interface. (Again, these links point to *my deployed application*. Your URL will be different.) From here we can interact with our API endpoints just like we did in the previous episode. If we connected our application to a persisted datasource, we could start adding data through the explorer. This is something we will do in the next episode!
+If we go to our [Band App on IBM Cloud](https://band-app.bluemix.net), we will see the status output that is the default for a LoopBack app. And if we view the [LoopBack Explorer for our API](https://band-app.bluemix.net/explorer) (`/explorer`), we should see the familiar Swagger interface. (Again, these links point to *my deployed application*. Your URL will be different.) From here we can interact with our API endpoints just like we did in the previous episode. If we connected our application to a persisted datasource, we could start adding data through the explorer. This is something we will do in the [next episode](./data-source.md)!
 

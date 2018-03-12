@@ -17,7 +17,7 @@ Accompanying this series is a [corresponding workshop](https://github.com/Strong
 
 ## Previously on _Let's build a band app!_
 
-In the [previous episode](/strongblog/lets-build-a-band-app-loopback-pt1/), we installed our prerequisites, got an understanding of what LoopBack provides and initialized our LoopBack application.
+In the [previous episode](./getting-started.md), we installed our prerequisites, got an understanding of what LoopBack provides and initialized our LoopBack application.
 
 ## In this episode
 
@@ -442,7 +442,7 @@ At this point, we now have our first API endpoint and we've gotten some understa
 
 ## What's Next?
 
-In the next episode, we'll dive deeper into interacting with our API. We'll interact with the Swagger explorer we get for free with LoopBack. We'll look at making requests to our endpoints from various sources and how we can start to build applications making use of our new API.
+In the [next episode](./api-explorer.md), we'll dive deeper into interacting with our API. We'll interact with the Swagger explorer we get for free with LoopBack. We'll look at making requests to our endpoints from various sources and how we can start to build applications making use of our new API.
 
 
 

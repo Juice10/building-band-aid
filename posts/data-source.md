@@ -17,7 +17,7 @@ Accompanying this series is a [corresponding workshop](https://github.com/Strong
 
 ## Previously on _Let's build a band app!_
 
-In the [previous episode](/strongblog/lets-build-a-band-app-loopback-pt4/), we deployed our application to the cloud -- in our case, IBM's Bluemix Paas. We can now access it from any connected device. If we want to start bragging to our friends, the app is now available beyond your local machine; its in the clouds! :)
+In the [previous episode](./deploy.md), we deployed our application to the cloud -- in our case, IBM Cloud's PaaS. We can now access it from any connected device. If we want to start bragging to our friends, the app is now available beyond your local machine; its in the clouds! :)
 
 ## In this episode
 

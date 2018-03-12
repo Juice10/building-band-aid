@@ -161,5 +161,5 @@ At this point, our application is initialized and the terminal outputs some help
 
 ## What's Next?
 
-In the next episode, we will initialize our first endpoint which will be generated based on some questions about our data. It'll be fun, fast and easy! See you then.
+In the [next episode](./first-api-endpoint.md), we will initialize our first endpoint which will be generated based on some questions about our data. It'll be fun, fast and easy! See you then.
 

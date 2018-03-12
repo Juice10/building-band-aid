@@ -16,7 +16,7 @@ Accompanying this series is a [corresponding workshop](https://github.com/Strong
 
 ## Previously on _Let's build a band app!_
 
-In the [previous episode](/strongblog/lets-build-a-band-app-loopback-pt2/), we created our first model-driven API endpoint. We used the LoopBack CLI, which asked us a series of questions about our data and then built out our RESTful API endpoints based on the answers we provided. We took a moment to look at the files that were generated, but now we will actually see those endpoints in action.
+In the [previous episode](./first-api-endpoint.md), we created our first model-driven API endpoint. We used the LoopBack CLI, which asked us a series of questions about our data and then built out our RESTful API endpoints based on the answers we provided. We took a moment to look at the files that were generated, but now we will actually see those endpoints in action.
 
 ## In this episode
 
@@ -52,7 +52,7 @@ The **event** endpoint is the one created in the previous step based on our answ
 
 ### Our first endpoint: `event`
 
-![LoopBack API Explorer - product endpoint](/https://strongloop.com/blog-assets/2017/band-app/api-explorer-03.png)
+![LoopBack API Explorer - product endpoint](https://strongloop.com/blog-assets/2017/band-app/api-explorer-03.png)
 
 This is where the magic of LoopBack shines through for those just getting started. Based on the questions related to our model, we are given this full CRUD RESTful API. Let's take this moment to appreciate LoopBack: we haven't written any code yet. ✨MAGIC✨ (And some super-smart generator actions.)
 
@@ -122,6 +122,6 @@ Until next time, if we want to "explore" this a little further, we could try mak
 
 ## What's Next?
 
-Now we have a handle on creating our first model within LoopBack and seeing it in action, let's dive a little deeper: in the next episode, we'll break this model down a little further and create a couple "related" models.
+Now we have a handle on creating our first model within LoopBack and seeing it in action, let's dive a little deeper: in [the next episode](./deploy.md), we'll break this model down a little further and create a couple "related" models.
 
 
